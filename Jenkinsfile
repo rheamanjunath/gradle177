@@ -2,7 +2,7 @@ pipeline{
 agent any
 tools{
 gradle'gradle'
-jdk'jdk'
+jdk'jdk17'
 }
 stages{
 stage('Checkout'){
